@@ -29,7 +29,7 @@ int main() {
                 break;
         }
     float x,s,c,t;
-         printf("                                sin,cos,tan :\n");
+         printf("                                welcome to the sin,cos,tan  calculator:\n");
          printf("donne la valeur de x:");
          scanf("%f",&x);
          s = sin(x);

@@ -25,7 +25,7 @@ int main() {
     {
     x1=-b-sqrt(delta)/2*a;
     x2=-b+sqrt(delta)/2*a;
-      printf("cette equation a deux solution : x1= %f \n, x2=%f \n",x1,x2);
+      printf("cette equation a deux solution : x1= %f \n                                 x2= %f \n",x1,x2);
 }
 }
     
