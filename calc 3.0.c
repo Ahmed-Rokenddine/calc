@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <math.h>
 
@@ -23,7 +22,11 @@ int main() {
         printf("cette equation a une seule solution : %f",x=-b/2*a);
     }
     else if (delta> 0)
-    printf("cette equation a deux solution : x1=\n x2=\n",x1=-b-sqrt(delta)/2*a,x2=-b+sqrt(delta)/2*a);
+    {
+    x1=-b-sqrt(delta)/2*a;
+    x2=-b+sqrt(delta)/2*a;
+      printf("cette equation a deux solution : x1= %f \n, x2=%f \n",x1,x2);
+}
 }
     
 
