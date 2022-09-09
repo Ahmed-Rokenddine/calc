@@ -5,7 +5,7 @@
 int main() {
     float x,y;
     char op;
-printf("x : ");
+        printf("x : ");
         scanf("%f", &x);
         printf("op : ");
         scanf("%s", &op);
